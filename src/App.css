@@ -1,0 +1,91 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.App > h1 {
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  margin: 2rem 0 1rem 0;
+}
+
+.App > .search{
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.App > .search > input {
+  width: 30vw;
+  height: 30px;
+  color: gray;
+  border: none;
+  background-color: #e7e7e72d;
+  border-bottom: 0.5px solid rgb(5, 5, 5);
+  outline: none;
+}
+
+.App > .search > button {
+  text-transform: uppercase;
+  height: 2rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: white;
+  font-weight: 700;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+}
+
+
+.App > p{
+  font-family: "Ubuntu";
+  margin-top: 2rem;
+}
+
+
+.App > .pokemonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 232px;
+  height: 350px;
+  gap: 0.5rem;
+  box-shadow: 0 8px 15px 0 rgba(46, 50, 114, 0.37);
+  border-radius: 10px;
+}
+
+.App > .pokemonCard > img {
+  width: 150px;
+  z-index: 2;
+  filter: drop-shadow(5px 5px 5px #666666);
+}
+
+.App > .pokemonCard > .name{
+  font-family: "Ubuntu";
+  font-size: 12px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.App > .pokemonCard > .details {
+  font-family: "Ubuntu";
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  
+}
+
+.App > .pokemonCard > .details h4{
+  font-weight: 400;
+  font-size: 14px;
+}
+
